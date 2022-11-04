@@ -1,0 +1,27 @@
+{
+  "name": "preentrega2pa",
+  "version": "1.0.0",
+  "description": "instalacion por primera vez",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    “build-css”: “node-sass --include-path scss style/style.scss style/style.css”,
+    “watch-css”: “nodemon -e scss -x \”npm run build-css\””
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloalbornoz88/preentrega2-pabloalbornoz.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Pablo Albornoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pabloalbornoz88/preentrega2-pabloalbornoz/issues"
+  },
+  "homepage": "https://github.com/pabloalbornoz88/preentrega2-pabloalbornoz#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
